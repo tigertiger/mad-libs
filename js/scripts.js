@@ -25,13 +25,15 @@ $(document).ready(function() {
 
     $("#story").show();
     $("#formOne").hide();
+    $("#yourLetter").show();
+    $("#formTwo").hide();
     $("#again").show();
 
   });
   $("#formTwo").submit(function(event) {
     event.preventDefault();
-    const yourName = $("input#yourName").val();
+    const yourNameInput = $("input#yourName").val();
 
-    $(".yourName").append(yourNameInput);
+  $(".yourName").append(yourNameInput);
   });
 });
