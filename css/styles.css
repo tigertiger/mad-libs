@@ -12,7 +12,24 @@ body {
 
 #story {
   display:none;
-  padding:20px 0px 0px 0px;
+  padding:100px 0px 100px 0px;
   width:64%;
   margin:auto;
+}
+
+#again {
+  display:none;
+}
+
+.btn {
+  background-color:rgb(80, 160, 0);
+  color:#000;
+  font-weight:bold;
+}
+
+.btn:hover {
+  background-color:#000;
+  color:rgb(80,160,0);
+  border:1px solid rgb(80,160,0);
+  font-weight:normal;
 }

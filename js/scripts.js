@@ -19,7 +19,13 @@ $(document).ready(function() {
     $(".person2").append(person2Input);
     $(".exclamation").append(exclamationInput);
 
+    $("#again").click(function() {
+      location.reload();
+    });
+    
     $("#story").show();
+    $("#formOne").hide();
+    $("#again").show();
 
   });
 });
