@@ -10,14 +10,14 @@ $(document).ready(function() {
     const person2Input = $("input#person2").val();
     const exclamationInput = $("input#exclamation").val();
 
-    $(".person1").append(person1Input);
-    $(".time1").append(time1Input);
-    $(".adverb1").append(adverb1Input);
-    $(".pluralNoun1").append(pluralNoun1Input);
-    $(".food1").append(food1Input);
-    $(".adjective2").append(adjective2Input);
-    $(".person2").append(person2Input);
-    $(".exclamation").append(exclamationInput);
+    $(".person1").text(person1Input);
+    $(".time1").text(time1Input);
+    $(".adverb1").text(adverb1Input);
+    $(".pluralNoun1").text(pluralNoun1Input);
+    $(".food1").text(food1Input);
+    $(".adjective2").text(adjective2Input);
+    $(".person2").text(person2Input);
+    $(".exclamation").text(exclamationInput);
 
     $("#again").click(function() {
       location.reload();
@@ -26,14 +26,14 @@ $(document).ready(function() {
     $("#story").show();
     $("#formOne").hide();
     $("#yourLetter").show();
-    $("#formTwo").hide();
+    $("#formOne").hide();
     $("#again").show();
 
   });
-  $("#formTwo").submit(function(event) {
+  $("#formOne").submit(function(event) {
     event.preventDefault();
     const yourNameInput = $("input#yourName").val();
 
-  $(".yourName").append(yourNameInput);
+  $(".yourName").text(yourNameInput);
   });
 });
