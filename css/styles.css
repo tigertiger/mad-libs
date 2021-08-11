@@ -1,0 +1,18 @@
+body {
+  background-color:#000;
+  color:rgb(80, 160, 0);
+  font-family:'Courier New', Courier, monospace;
+}
+
+.container {
+  padding: 30px 0px 30px 0px;
+  width:64%;
+  margin:auto;
+}
+
+#story {
+  display:none;
+  padding:20px 0px 0px 0px;
+  width:64%;
+  margin:auto;
+}
