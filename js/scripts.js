@@ -22,10 +22,16 @@ $(document).ready(function() {
     $("#again").click(function() {
       location.reload();
     });
-    
+
     $("#story").show();
     $("#formOne").hide();
     $("#again").show();
 
+  });
+  $("#formTwo").submit(function(event) {
+    event.preventDefault();
+    const yourName = $("input#yourName").val();
+
+    $(".yourName").append(yourNameInput);
   });
 });

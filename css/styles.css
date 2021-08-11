@@ -21,6 +21,10 @@ body {
   display:none;
 }
 
+#yourLetter {
+  display:none;
+}
+
 .btn {
   background-color:rgb(80, 160, 0);
   color:#000;
